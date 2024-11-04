@@ -12,14 +12,22 @@ body {
 #maincontainer {
   background-image: url(./720234.jpg);
   background-size: cover;
+  
 }
-
+.top{
+display: flex;
+align-items:space-between;
+}
+#head{
+padding-top: 0px;
+}
 nav {
   padding: 15px 15px;
   display: flex;
   text-align: center;
   justify-content: space-between;
-  color: whitesmoke;
+  background-color: orange;
+  color: white;
   position: relative;
   height: 20px;
 }
@@ -32,6 +40,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
+  color: whitesmoke;
  
 }
 #menulist ul li{
